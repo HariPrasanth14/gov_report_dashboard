@@ -15,7 +15,7 @@ const Banner = () => {
 
   return (
     <div className="w-full">
-      <div>
+      <div className="hidden lg:block">
       <div className="bg-gradient-to-r from-yellow-500 to-red-600 text-lg tracking-wider  font-extrabold w-60 py-3 fixed z-10 rounded-xl px-5 bottom-4 right-96 text-white  text-center shadow-lg" style={{textShadow:"2px 2px 0px black"}}>
 
         Try Govereport now
